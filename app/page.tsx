@@ -50,7 +50,7 @@ export default async function Home() {
           </a>
         </div>
 
-        <div className="mt-10 rounded-xl border border-zinc-800 bg-zinc-900 p-6">
+        <div className="mt-10 rounded-xl border border-zinc-800 text-white bg-zinc-900 p-6">
           <p>i'm currently listening to </p>
           <SpotifyNowPlaying/>
         </div>
