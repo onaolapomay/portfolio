@@ -31,7 +31,7 @@ export async function GET() {
     await getAccessToken();
 
   const response = await fetch(
-    "https://api.spotify.com/v1/me/player/currently-playing",
+    "https://api.spotify.com/v1/me/player/",
     {
       headers: {
         Authorization: `Bearer ${access_token}`,
@@ -56,5 +56,8 @@ export async function GET() {
     albumImage:
       song.item?.album?.images?.[0]?.url,
     songUrl: song.item?.external_urls?.spotify,
+
+    deviceType: song.device?.type,
+    deviceName: song.device?.name,
   });
 }

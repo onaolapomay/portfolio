@@ -8,6 +8,8 @@ type Song = {
   artist?: string;
   albumImage?: string;
   songUrl?: string;
+  deviceName?: string;
+  deviceType?: string;
 };
 
 function Equalizer() {
@@ -27,6 +29,7 @@ export default function SpotifyNowPlaying() {
   async function loadSong() {
     const response = await fetch("/api/spotify");
     const data = await response.json();
+    console.log(song)
     setSong(data);
   }
 
@@ -79,12 +82,18 @@ export default function SpotifyNowPlaying() {
       <p className="truncate text-sm text-zinc-400">
         {song.artist}
       </p>
+
+      <p className="text-xs text-zinc-500">
+        {song.deviceName} ({song.deviceType})
+      </p>
     </div>
 
     <div className="flex flex-col items-end gap-1">
         <Equalizer/>
      <span className="text-green-500">Spotify</span> 
     </div>
+
+    
   </a>
 
   );
