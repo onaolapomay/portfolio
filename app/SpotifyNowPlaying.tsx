@@ -14,8 +14,9 @@ function Equalizer() {
   return (
     <div className="flex items-end gap-1">
       <span className="h-2 w-1 animate-pulse rounded bg-green-500"></span>
-      <span className="h-4 w-1 animate-pulse rounded bg-green-500"></span>
+      <span className="h-5 w-1 animate-pulse rounded bg-green-500"></span>
       <span className="h-3 w-1 animate-pulse rounded bg-green-500"></span>
+      <span className="h-4 w-1 animate-pulse rounded bg-green-500"></span>
     </div>
   );
 }
@@ -58,20 +59,20 @@ export default function SpotifyNowPlaying() {
     href={song.songUrl}
     target="_blank"
     rel="noopener noreferrer"
-    className="mt-10 flex items-center gap-4 rounded-xl border border-zinc-800 bg-zinc-900 p-5 transition hover:border-zinc-700"
+    className="mt-10 flex items-center gap-4 rounded-xl border border-zinc-800 bg-zinc-900 p-5 transition hover:border-green-500/50 hover:shadow-lg hover:shadow-green-500/10"
   >
     <img
       src={song.albumImage}
       alt={song.title}
-      className="h-16 w-16 rounded-lg object-cover"
+      className="h-20 w-20 rounded-xl object-cover shadow-md"
     />
 
     <div className="min-w-0 flex-1">
       <p className="text-xs uppercase tracking-[0.2em] text-green-500">
-        Currently Listening
+        Now Playing
       </p>
 
-      <h3 className="truncate font-medium">
+      <h3 className="truncate text-base font-semibold">
         {song.title}
       </h3>
 
