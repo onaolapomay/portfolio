@@ -51,6 +51,7 @@ export default async function Home() {
         </div>
 
         <div className="mt-10 text-white p-6">
+          {/* <p className='text-sm text-zinc-400'>i'm currently listening to</p> */}
           <SpotifyNowPlaying/>
         </div>
         

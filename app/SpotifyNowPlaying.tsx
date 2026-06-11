@@ -44,27 +44,36 @@ export default function SpotifyNowPlaying() {
   }
 
   return (
-    <a
-      href={song.songUrl}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="mt-10 flex items-center gap-4 rounded-xl border border-zinc-800 bg-zinc-900 p-6 hover:border-zinc-700"
-    >
-      <img
-        src={song.albumImage}
-        alt={song.title}
-        className="h-16 w-16 rounded-lg"
-      />
+  <a
+    href={song.songUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mt-10 flex items-center gap-4 rounded-xl border border-zinc-800 bg-zinc-900 p-5 transition hover:border-zinc-700"
+  >
+    <img
+      src={song.albumImage}
+      alt={song.title}
+      className="h-16 w-16 rounded-lg object-cover"
+    />
 
-      <div>
-        <p className="font-semibold">
-          🎵 {song.title}
-        </p>
+    <div className="min-w-0 flex-1">
+      <p className="text-xs uppercase tracking-[0.2em] text-green-500">
+        Currently Listening
+      </p>
 
-        <p className="text-zinc-400">
-          {song.artist}
-        </p>
-      </div>
-    </a>
+      <h3 className="truncate font-medium">
+        {song.title}
+      </h3>
+
+      <p className="truncate text-sm text-zinc-400">
+        {song.artist}
+      </p>
+    </div>
+
+    <div className="text-green-500">
+      Spotify
+    </div>
+  </a>
+
   );
 }
