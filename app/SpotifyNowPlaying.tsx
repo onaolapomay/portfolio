@@ -10,6 +10,16 @@ type Song = {
   songUrl?: string;
 };
 
+function Equalizer() {
+  return (
+    <div className="flex items-end gap-1">
+      <span className="h-2 w-1 animate-pulse rounded bg-green-500"></span>
+      <span className="h-4 w-1 animate-pulse rounded bg-green-500"></span>
+      <span className="h-3 w-1 animate-pulse rounded bg-green-500"></span>
+    </div>
+  );
+}
+
 export default function SpotifyNowPlaying() {
   const [song, setSong] = useState<Song | null>(null);
 
@@ -70,8 +80,9 @@ export default function SpotifyNowPlaying() {
       </p>
     </div>
 
-    <div className="text-green-500">
-      Spotify
+    <div className="flex flex-col items-end gap-1">
+        <Equalizer/>
+     <span className="text-green-500">Spotify</span> 
     </div>
   </a>
 
