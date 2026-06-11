@@ -50,7 +50,9 @@ export default async function Home() {
           </a>
         </div>
 
+        <div className="mt-10 text-white p-6">
           <SpotifyNowPlaying/>
+        </div>
         
         <section className="mt-24">
           <h2 className="text-4xl"

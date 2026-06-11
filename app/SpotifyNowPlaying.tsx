@@ -37,7 +37,7 @@ export default function SpotifyNowPlaying() {
 
   if (!song.isPlaying) {
     return (
-      <div className="mt-10 rounded-xl border border-zinc-800 bg-zinc-900 p-6">
+      <div className="mt-10 rounded-xl border border-zinc-800 text-white bg-zinc-900 p-6">
         Not listening to anything right now.
       </div>
     );
