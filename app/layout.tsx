@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${playfair.variable}bg-black text-white`}>
+      <body className={playfair.variable}>
         {children}
       </body>
     </html>
