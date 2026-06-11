@@ -131,9 +131,11 @@ export default async function Home() {
             </div>
           </div>
           </a>
-          <hr className="my-4 border-zinc-800" />
 
         </section>
+        <footer className="mt-40 border-t border-zinc-800 py-8 text-center text-sm text-zinc-500">
+          Built with Next.js, TypeScript & Tailwind CSS • © {new Date().getFullYear()} Mayowa Onaolapo
+        </footer>
       </section>
     </main>
   );
