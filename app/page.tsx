@@ -8,7 +8,7 @@ export default async function Home() {
 
 
   return (
-    <main className="mx-auto max-w-2xl mx-auto px-8 py-24">
+    <main className="mx-auto max-w-2xl px-8 py-24">
       <nav className="flex items-center justify-end gap-8 text-sm uppercase">
         <a href="/">Home</a>
         <a 
@@ -29,7 +29,7 @@ export default async function Home() {
           Frontend Developer
         </p>
 
-        <p className="mt-4 max-w-md text-zinc-400">
+        <p className="mt-4 max-w-md text-zinc-700 dark:text-zinc-400">
           Building modern web applications with React,TypeScript and Next.js.
         </p>
 
@@ -39,7 +39,7 @@ export default async function Home() {
             GitHub
           </a>
 
-          <span className="text-zinc-600">|</span>
+          <span className="text-zinc-600 dark:text-zinc-400">|</span>
 
           <a
             href="https://twitter.com/air_mayor"
@@ -50,7 +50,7 @@ export default async function Home() {
             X
           </a>
 
-          <span className="text-zinc-600">|</span>
+          <span className="text-zinc-600 dark:text-zinc-400">|</span>
 
           <a href="mailto:raphy.mayo@gmail.com" className="underline underline-offset-6">
             Email
