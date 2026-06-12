@@ -95,7 +95,7 @@ export default async function Home() {
             rel="noopener noreferrer"
           >
             
-            <div className='group-hover:border-l-2 group-hover:border-zinc-400 border-zinc-800 pl-6 transition-colors duration-300'>
+            <div className='border-l-2 group-hover:border-zinc-400 border-zinc-800 pl-6 transition-colors duration-300'>
               <div className="flex items-center justify-between">
               <h3 className="text-2xl"
               style={{ fontFamily: "var(--font-playfair)"}}>Expense Tracker</h3>
@@ -117,7 +117,7 @@ export default async function Home() {
             target="_blank"
             rel="noopener noreferrer">
             
-            <div className='group-hover:border-l-2 group-hover:border-zinc-400 border-zinc-800 pl-6 transition-colors duration-300'>
+            <div className='border-l-2 group-hover:border-zinc-400 border-zinc-800 pl-6 transition-colors duration-300'>
               <div className="flex items-center justify-between">
               <h3 className="text-2xl"
               style={{ fontFamily: "var(--font-playfair)"}}>GlobalPay</h3>
@@ -139,7 +139,7 @@ export default async function Home() {
             target="_blank"
             rel="noopener noreferrer">
             
-            <div className='group-hover:border-l-2 group-hover:border-zinc-400 border-zinc-800 pl-6 transition-colors duration-300'>
+            <div className='border-l-2 group-hover:border-zinc-400 border-zinc-800 pl-6 transition-colors duration-300'>
               <div className="flex items-center justify-between">
               <h3 className="text-2xl"
               style={{ fontFamily: "var(--font-playfair)"}}>Revamp</h3>
