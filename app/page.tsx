@@ -1,5 +1,6 @@
 import SpotifyNowPlaying from './SpotifyNowPlaying';
 import TechStack from './components/TechStack';
+import { ExternalLink } from 'lucide-react';
 
 export default async function Home() {
 
@@ -67,34 +68,39 @@ export default async function Home() {
           </h2>
           <hr className="my-4 border-zinc-800" />
 
-          <a href="https://my-solar-smart-plan.onrender.com/" className="block py-10"
+          <a href="https://my-solar-smart-plan.onrender.com/" className="group block py-10"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="flex items-center justify-between">
-            <div>
-              <h3 className="text-2xl"
-              style={{ fontFamily: "var(--font-playfair)"}}>My Solar Smart Plan</h3>
-              <p className="mt-2 text-xs tracking-[0.2em] text-zinc-500">my-solar-smart-plan.onrender.com</p>
+            
+              <div className='border-l-2 group-hover:border-zinc-400 border-zinc-800 pl-6 transition-colors duration-300'>
+                <div className="flex items-center justify-between">
+                <h3 className="text-2xl"
+                style={{ fontFamily: "var(--font-playfair)"}}>My Solar Smart Plan</h3>
+                <ExternalLink size={18} className="ml-auto transition-transform duration-200 group-hover:translate-x-1 group-hover:translate-y-1" />
+                </div>
+                <p className="mt-2 text-xs tracking-[0.2em] text-zinc-500">my-solar-smart-plan.onrender.com</p>
+                <p className="mt-2 text-sm text-zinc-400">
+                  Design and size your solar setups based on energy usage, battery capacity, and inverter limits
+                </p>
 
-              <p className="mt-2 text-sm text-zinc-400">
-                Design and size your solar setups based on energy usage, battery capacity, and inverter limits
-              </p>
-
-              <p className='mt-2 text-lg text-red-200'>React ● TypeScript ● Tailwind CSS</p>
-            </div>
+                <p className='mt-2 text-lg text-red-200'>React ● TypeScript ● Tailwind CSS</p>
+            
           </div>
           </a>
-          <hr className="my-4border-zinc-800" />
+          <hr className="my-4 border-zinc-800" />
 
-          <a href="https://expensesrack.netlify.app/" className="block py-10"
+          <a href="https://expensesrack.netlify.app/" className="group block py-10"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="flex items-center justify-between">
-            <div>
+            
+            <div className='group-hover:border-l-2 group-hover:border-zinc-400 border-zinc-800 pl-6 transition-colors duration-300'>
+              <div className="flex items-center justify-between">
               <h3 className="text-2xl"
               style={{ fontFamily: "var(--font-playfair)"}}>Expense Tracker</h3>
+                <ExternalLink size={18} className="ml-auto transition-transform duration-200 group-hover:translate-x-1 group-hover:translate-y-1" />
+              </div>
               <p className="mt-2 text-xs tracking-[0.2em] text-zinc-500">expensesrack.netlify.app</p>
 
               <p className="mt-2 text-sm text-zinc-400">
@@ -102,18 +108,21 @@ export default async function Home() {
               </p>
 
               <p className='mt-2 text-lg text-red-200'>React ● Node.js ● Tailwind CSS ● Express.js ● MongoDB ● JWT</p>
-            </div>
+            
           </div>
           </a>
-          <hr className="my-4border-zinc-800" />
+          <hr className="my-4 border-zinc-800" />
 
-            <a href="https://globalp.netlify.app/" className="block py-10"
+            <a href="https://globalp.netlify.app/" className="group block py-10"
             target="_blank"
             rel="noopener noreferrer">
-            <div className="flex items-center justify-between">
-            <div>
+            
+            <div className='group-hover:border-l-2 group-hover:border-zinc-400 border-zinc-800 pl-6 transition-colors duration-300'>
+              <div className="flex items-center justify-between">
               <h3 className="text-2xl"
               style={{ fontFamily: "var(--font-playfair)"}}>GlobalPay</h3>
+              <ExternalLink size={18} className="ml-auto transition-transform duration-200 group-hover:translate-x-1 group-hover:translate-y-1" />
+              </div>
               <p className="mt-2 text-xs tracking-[0.2em] text-zinc-500">globalp.netlify.app</p>
 
               <p className="mt-2 text-sm text-zinc-400">
@@ -121,18 +130,21 @@ export default async function Home() {
               </p>
 
               <p className='mt-2 text-lg text-red-200'>React ● Tailwind CSS ● Firebase</p>
-            </div>
+            
           </div>
           </a>
-          <hr className="my-4border-zinc-800" />
+          <hr className="my-4 border-zinc-800" />
 
-            <a href="https://the-revamp.netlify.app/" className="block py-10"
+            <a href="https://the-revamp.netlify.app/" className="group block py-10"
             target="_blank"
             rel="noopener noreferrer">
-            <div className="flex items-center justify-between">
-            <div>
+            
+            <div className='group-hover:border-l-2 group-hover:border-zinc-400 border-zinc-800 pl-6 transition-colors duration-300'>
+              <div className="flex items-center justify-between">
               <h3 className="text-2xl"
               style={{ fontFamily: "var(--font-playfair)"}}>Revamp</h3>
+              <ExternalLink size={18} className="ml-auto transition-transform duration-200 group-hover:translate-x-1 group-hover:translate-y-1" />
+              </div>
               <p className="mt-2 text-xs tracking-[0.2em] text-zinc-500">the-revamp.netlify.app/</p>
 
               <p className="mt-2 text-sm text-zinc-400">
@@ -140,7 +152,6 @@ export default async function Home() {
               </p>
 
               <p className='mt-2 text-lg text-red-200'>React ● Tailwind CSS</p>
-            </div>
           </div>
           </a>
 
