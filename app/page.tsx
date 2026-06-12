@@ -1,13 +1,16 @@
 import SpotifyNowPlaying from './SpotifyNowPlaying';
+import TechStack from './components/TechStack';
 
 export default async function Home() {
 
 
   return (
-    <main className="mx-auto max-w-xl px-8 py-24">
+    <main className="mx-auto max-w-2xl mx-auto px-8 py-24">
       <nav className="flex justify-end gap-8 text-sm uppercase">
         <a href="/">Home</a>
-        <a href="/guestbook">Guestbook</a>
+        <a 
+        href="/cv.pdf" target="_blank" rel="noopener noreferrer"
+        >Resume</a>
       </nav>
 
       <section className="mt-20">
@@ -51,9 +54,10 @@ export default async function Home() {
         </div>
 
         <div className="mt-10 text-white p-6">
-          {/* <p className='text-sm text-zinc-400'>i'm currently listening to</p> */}
           <SpotifyNowPlaying/>
         </div>
+        
+        <TechStack />
         
         <section className="mt-24">
           <h2 className="text-4xl"
