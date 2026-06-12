@@ -29,8 +29,8 @@ export default async function Home() {
           Frontend Developer
         </p>
 
-        <p className="mt-4 max-w-md text-zinc-700 dark:text-zinc-400">
-          Building modern web applications with React,TypeScript and Next.js.
+        <p className="mt-4 max-w-md text-zinc-950 dark:text-zinc-400">
+          Building for web.
         </p>
 
         <div className="mt-4 flex items-center gap-4 text-sm">
