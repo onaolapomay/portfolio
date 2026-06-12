@@ -1,5 +1,5 @@
 import { FaReact, FaNodeJs, FaGitAlt, FaFigma, FaGithub, } from 'react-icons/fa'
-import { SiNextdotjs, SiTailwindcss, SiExpress, } from 'react-icons/si'
+import { SiNextdotjs, SiTailwindcss, SiExpress, SiFirebase } from 'react-icons/si'
 import { DiJavascript1, DiMongodb } from 'react-icons/di'
 import { TbBrandTypescript } from 'react-icons/tb'
 
@@ -15,12 +15,13 @@ const technologies = [
     {name: "Git", icon: FaGitAlt},
     {name: "GitHub", icon: FaGithub},
     {name: "Figma", icon: FaFigma},
+    {name: "FireBase", icon: SiFirebase},
 ]
 
 export default function TechStack () {
     return (
         <section className='mt-12'>
-            <h2 className='mb-4 text-2xl font-semibold'>Technologies</h2>
+            <h2 className='mb-4 text-4xl font-playfair'>Technologies</h2>
 
             <div className='grid grid-cols-2 gap-4 md:grid-cols-4'>
                 {technologies.map((tech) => {

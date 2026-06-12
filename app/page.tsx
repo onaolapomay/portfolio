@@ -80,6 +80,8 @@ export default async function Home() {
               <p className="mt-2 text-sm text-zinc-400">
                 Design and size your solar setups based on energy usage, battery capacity, and inverter limits
               </p>
+
+              <p className='mt-2 text-lg text-red-200'>React ● TypeScript ● Tailwind CSS</p>
             </div>
           </div>
           </a>
@@ -98,6 +100,8 @@ export default async function Home() {
               <p className="mt-2 text-sm text-zinc-400">
                 Track expenses and manage personal budgets.
               </p>
+
+              <p className='mt-2 text-lg text-red-200'>React ● Node.js ● Tailwind CSS ● Express.js ● MongoDB ● JWT</p>
             </div>
           </div>
           </a>
@@ -115,6 +119,8 @@ export default async function Home() {
               <p className="mt-2 text-sm text-zinc-400">
                 A modern fintech platform for payment processing, recurring billing, and business payment solution.
               </p>
+
+              <p className='mt-2 text-lg text-red-200'>React ● Tailwind CSS ● Firebase</p>
             </div>
           </div>
           </a>
@@ -132,6 +138,8 @@ export default async function Home() {
               <p className="mt-2 text-sm text-zinc-400">
                 A fashion e-commerce platform featuring product browsing, promotions, collections and responsive shopping experiences.
               </p>
+
+              <p className='mt-2 text-lg text-red-200'>React ● Tailwind CSS</p>
             </div>
           </div>
           </a>
