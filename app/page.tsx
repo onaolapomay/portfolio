@@ -1,17 +1,20 @@
 import SpotifyNowPlaying from './SpotifyNowPlaying';
 import TechStack from './components/TechStack';
 import { ExternalLink } from 'lucide-react';
+import ThemeToggle from "./components/ThemeToggle";
+
 
 export default async function Home() {
 
 
   return (
     <main className="mx-auto max-w-2xl mx-auto px-8 py-24">
-      <nav className="flex justify-end gap-8 text-sm uppercase">
+      <nav className="flex items-center justify-end gap-8 text-sm uppercase">
         <a href="/">Home</a>
         <a 
         href="/cv.pdf" target="_blank" rel="noopener noreferrer"
         >Resume</a>
+        <ThemeToggle />
       </nav>
 
       <section className="mt-20">
