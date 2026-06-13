@@ -31,7 +31,7 @@ export default function TechStack () {
                         key={tech.name}
                         className='flex items-center gap-3 rounded-xl border border-zinc-300 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900 p-4 transition hover:border-zinc-700'>
                             <Icon size={24} className='text-zinc-900 dark:text-zinc-100'/>
-                            <span className='text-zinc-300 dark:text-white'>{tech.name}</span>
+                            <span className='text-zinc-800 dark:text-zinc-100'>{tech.name}</span>
 
                         </div>
                     )
